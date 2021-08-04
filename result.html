@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Test result page</title>
+  </head>
+  <body>
+    <div> 页面后缀参数：</div>
+    <div id="result"> </div>
+  </body>
+  <script type="text/javascript">
+    window.onLoad = function() {
+      var test = window.location.search;
+      document.getElementById("result").innerText = test;
+    }
+  </script>
+</html>
