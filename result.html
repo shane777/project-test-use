@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html>
-  <script type="text/javascript">
-    window.onLoad = function() {
-      var test = window.location.search;
-      console.log('test: ', test);
-      document.getElementById("result").innerHTML = test;
-    }
-  </script>
   <head>
     <title>Test result page</title>
   </head>
   <body>
     <div> 页面后缀参数：</div>
     <div id="result"> </div>
+    <script type="text/javascript">
+      window.onload = function() {
+        var test = window.location.search;
+        console.log('test: ', test);
+        document.getElementById("result").innerHTML = test;
+      }
+    </script>
   </body>
 </html>
