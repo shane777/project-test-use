@@ -14,14 +14,13 @@
   </script>
   <script type="text/javascript">
     document.getElementById("login").addEventListener("click", function(){
-      console.log('-------');
       wx.miniProgram.navigateTo({url: '/pages/redirect/login-redirect?silentLoginOnly=false&redirectUrl=https://shane777.github.io/project-test-use/result.html'})
     });
     document.getElementById("auth").addEventListener("click", function(){
       wx.miniProgram.navigateTo({url: '/pages/redirect/login-redirect?actionType=profile&redirectUrl=https://shane777.github.io/project-test-use/result.html'})
     });
     document.getElementById("subscribe").addEventListener("click", function(){
-      wx.miniProgram.navigateTo({url: '/pages/redirect/login-redirect?actionType=subscribe&redirectUrl=https://shane777.github.io/project-test-use/result.html'})
+      wx.miniProgram.navigateTo({url: '/pages/redirect/login-redirect?actionType=subscribe&tmplIds=xT39KgcWBqIM_qGjFxKUqQ3PscLp91h4klhwAW5c6tU,gYdaQSUDe7Mfiku7u2Z6_r4TASdrod4ilyBOt4msCkU&redirectUrl=https://shane777.github.io/project-test-use/result.html'})
     });
   </script>
 
